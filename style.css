@@ -1,0 +1,504 @@
+h1 {
+    color: rgb(242, 190, 18);
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid rgb(238, 222, 5);
+}
+.product {
+    width: 300px;
+    min-height: 400px;
+    background-color: rgb(171, 134, 140);
+    border: 2px solid goldenrod;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.product h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.product {
+    width: 300px;
+    min-height: 500px;
+    background-color: rgb(171, 134, 140);
+    border: 2px solid goldenrod;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.product:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+.products-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.product h3 {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.product p {
+    color: white;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.product img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 8px;
+    transition: transform 0.3s ease;
+}
+.product img:hover {
+    transform: scale(1.05);
+}
+.product ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.product li {
+    color: white;
+    font-size: 17px;
+    margin: 8px 0;
+}
+.product:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff5f8;
+}
+nav {
+    background-color: rgb(171, 134, 140);
+    padding: 15px;
+    text-align: center;
+}
+nav a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+nav a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+nav a:visited {
+    color: white;
+}
+nav a:focus {
+    color: goldenrod;
+    outline: 2px solid goldenrod;
+}
+nav a {
+    border: 1px solid white;
+    padding: 8px;
+}
+img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.services {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.services h2 {
+    color: rgb(171, 134, 140);
+}
+
+.services p {
+    line-height: 1.6;
+}
+.order-section {
+    text-align: center;
+    margin: 40px auto;
+    padding: 25px;
+}
+
+.order-section h3 {
+    color: rgb(171, 134, 140);
+    font-size: 25px;
+}
+
+.order-section p {
+    font-size: 17px;
+}
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: rgb(171, 134, 140);
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+}
+/* CONTACT PAGE */
+
+.contact-page {
+    background-color: #fff5f8;
+}
+
+.contact-page > h1 {
+    text-align: center;
+}
+
+.contact-page > h2,
+.contact-page > p {
+    text-align: center;
+}
+
+.contact-page > p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+/* Contact information */
+
+.contact-info {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: rgb(171, 134, 140);
+}
+
+.contact-info p {
+    margin: 12px 0;
+}
+
+.contact-info a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+/* Message form */
+
+.message-section {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: rgb(171, 134, 140);
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+}
+
+.message-section h2 {
+    color: white;
+    text-align: center;
+}
+
+.message-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-section label {
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.message-section input,
+.message-section textarea {
+    padding: 12px;
+    border: 1px solid goldenrod;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.message-section textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.message-section button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.message-section button:hover {
+    background-color: rgb(242, 190, 18);
+}
+
+/* Address */
+
+.address-section {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.address-section h2 {
+    color: rgb(171, 134, 140);
+}
+
+/* Map */
+
+.map-section {
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.map-section h2 {
+    color: rgb(171, 134, 140);
+}
+
+.map-section iframe {
+    width: 100%;
+    height: 300px;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+}
+
+/* Footer */
+
+.contact-page footer {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: rgb(171, 134, 140);
+    text-align: center;
+}
+
+.contact-page footer p {
+    color: white;
+    margin: 0;
+}
+/* Contact page heading */
+
+.contact-page h1 {
+    color: rgb(242, 190, 18);
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 3px solid rgb(238, 222, 5);
+    border-radius: 15px;
+    background-color: white;
+    max-width: 800px;
+}
+
+.contact-page > h2 {
+    text-align: center;
+    color: rgb(171, 134, 140);
+    font-size: 28px;
+}
+
+.contact-page > p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff5f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+
+nav {
+    background-color: rgb(171, 134, 140);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:focus {
+    color: goldenrod;
+    outline: 2px solid goldenrod;
+}
+
+/* Main headings */
+
+h1 {
+    color: rgb(242, 190, 18);
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 3px solid rgb(238, 222, 5);
+    border-radius: 15px;
+    background-color: white;
+}
+
+/* General secondary headings */
+
+h2 {
+    color: rgb(171, 134, 140);
+}
+
+h3 {
+    color: rgb(171, 134, 140);
+}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: rgb(171, 134, 140);
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+}
+body img {
+    display: block;
+    width: 300px;
+    height: 220px;
+    margin: 15px auto;
+    object-fit: cover;
+}
+/* About Us Page */
+
+.about-page h1 {
+    color: rgb(242, 190, 18);
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 3px solid rgb(238, 222, 5);
+    border-radius: 15px;
+    background-color: white;
+    max-width: 800px;
+}
+
+.about-page > h2 {
+    text-align: center;
+    color: rgb(171, 134, 140);
+    font-size: 28px;
+}
+
+.about-page > p {
+    max-width: 850px;
+    margin: 0 auto 30px;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 17px;
+}
+/* Center About Us content */
+
+.about-page h1,
+.about-page h2,
+.about-page h3 {
+    text-align: center;
+}
+
+.about-page p {
+    text-align: center;
+}
+.about-page h3 {
+    text-align: center;
+}
+.order-button {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: rgb(242, 190, 18);
+}
+
